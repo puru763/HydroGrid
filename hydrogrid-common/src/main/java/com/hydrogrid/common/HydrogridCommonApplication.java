@@ -1,4 +1,4 @@
-package com.hydrogrid.hydrogrid_common;
+package com.hydrogrid.common;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.hydrogrid.hydrogrid_auth;
+package com.hydrogrid.auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

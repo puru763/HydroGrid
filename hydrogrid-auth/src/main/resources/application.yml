@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: hydrogrid-auth
+  datasource:
+    url: jdbc:h2:mem:hydrogrid-auth
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    console:
+      enabled: true
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+server:
+  port: 8081
+
+jwt:
+  access-secret: my-super-secure-access-secret-key-12345678901234567890
+  refresh-secret: my-super-secure-refresh-secret-key-12345678901234567890
